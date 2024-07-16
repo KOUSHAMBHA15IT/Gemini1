@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             // The Gemini 1.5 models are versatile and work with both text-only and multimodal prompts
             modelName = "gemini-1.5-flash",
             // Access your API key as a Build Configuration variable (see "Set up your API key" above)
-            apiKey = "AIzaSyCEjD0yoiBUDBnGCWTy-606Fw-5nnF39eY"
+            apiKey = "-------------------------"
         )
         val prompt = "Write a story about a magic backpack."
         MainScope().launch {
